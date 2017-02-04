@@ -1,0 +1,75 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/umste/Desktop/Nanoprocessor/finalProc_finalProc_sch_tb_isim_beh.exe -prj C:/Users/umste/Desktop/Nanoprocessor/finalProc_finalProc_sch_tb_beh.prj work.finalProc_finalProc_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/HA.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/REGISTER_4.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Mux2_1.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/FA.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Decoder3.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/ROMBANK.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Register_3_bit.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/Decoder2_4.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/PC.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/LUT.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf" into library work
+Parsing VHDL file "C:/Users/umste/Desktop/Nanoprocessor/TB_processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture behavioral of entity Register_3_bit_MUSER_finalProc [register_3_bit_muser_finalproc_d...]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture behavioral of entity HA_MUSER_finalProc [ha_muser_finalproc_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity ADDER_3_bit_MUSER_finalProc [adder_3_bit_muser_finalproc_defa...]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity Mux2_1_MUSER_finalProc [mux2_1_muser_finalproc_default]
+Compiling architecture behavioral of entity Mux_2_3_MUSER_finalProc [mux_2_3_muser_finalproc_default]
+Compiling architecture behavioral of entity PC_MUSER_finalProc [pc_muser_finalproc_default]
+Compiling architecture behavioral of entity Decoder2_4_MUSER_finalProc [decoder2_4_muser_finalproc_defau...]
+Compiling architecture behavioral of entity INS_DECODER_MUSER_finalProc [ins_decoder_muser_finalproc_defa...]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture behavioral of entity REGISTER_4_MUSER_finalProc [register_4_muser_finalproc_defau...]
+Compiling architecture behavioral of entity Decoder3_MUSER_finalProc [decoder3_muser_finalproc_default]
+Compiling architecture behavioral of entity Reg_Bank_MUSER_finalProc [reg_bank_muser_finalproc_default]
+Compiling architecture fmap_v of entity FMAP [fmap_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity OR8_MXILINX_finalProc [or8_mxilinx_finalproc_default]
+Compiling architecture behavioral of entity MUX_8_4_MUSER_finalProc [mux_8_4_muser_finalproc_default]
+Compiling architecture behavioral of entity MUX_2_4_MUSER_finalProc [mux_2_4_muser_finalproc_default]
+Compiling architecture behavioral of entity FA_MUSER_finalProc [fa_muser_finalproc_default]
+Compiling architecture behavioral of entity RCA_MUSER_finalProc [rca_muser_finalproc_default]
+Compiling architecture behavioral of entity ALUnReg_MUSER_finalProc [alunreg_muser_finalproc_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture rom16x1_v of entity ROM16X1 [\ROM16X1("0000000000010011")(0,1...]
+Compiling architecture behavioral of entity ROMBANK_MUSER_finalProc [rombank_muser_finalproc_default]
+Compiling architecture behavioral of entity ROM_MUSER_finalProc [rom_muser_finalproc_default]
+Compiling architecture behavioral of entity LUT_MUSER_finalProc [lut_muser_finalproc_default]
+Compiling architecture behavioral of entity finalProc [finalproc_default]
+Compiling architecture behavioral of entity finalproc_finalproc_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 103 VHDL Units
+Built simulation executable C:/Users/umste/Desktop/Nanoprocessor/finalProc_finalProc_sch_tb_isim_beh.exe
+Fuse Memory Usage: 56980 KB
+Fuse CPU Usage: 5983 ms

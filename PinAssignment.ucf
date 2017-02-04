@@ -1,0 +1,24 @@
+net "R7(0)" loc = "M5";
+net "R7(1)" loc = "M11";
+net "R7(2)" loc = "P7";
+net "R7(3)" loc = "P6";
+
+net "OFLOW" loc = "G1";
+
+net "RESET" loc = "G12";
+net "CLR" loc = "C11";
+
+net "CLK" loc = "A7";
+
+net "K0" loc = "K14";
+net "k1" loc = "M13";
+net "k2" loc = "J12";
+net "k3" loc = "F12";
+
+NET "NumT" LOC ="L14";
+NET "NumTR" LOC ="H12";
+NET "NumBR" LOC ="N14";
+NET "NumB" LOC ="N11";
+NET "NumBL" LOC ="P12";
+NET "NumTL" LOC ="L13";
+NET "NumM" LOC ="M12";

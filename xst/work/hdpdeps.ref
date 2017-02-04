@@ -1,0 +1,482 @@
+V3 232
+FL C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf 2016/01/19.23:02:45 P.20131013
+EN work/HA_MUSER_ADDER_3_bit 1453450058 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_ADDER_3_bit/BEHAVIORAL 1453450059 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf \
+      EN work/HA_MUSER_ADDER_3_bit 1453450058 CP XOR2 CP AND2
+EN work/ADDER_3_bit 1453450060 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADDER_3_bit/BEHAVIORAL 1453450061 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ADDER_3_bit.vhf EN work/ADDER_3_bit 1453450060 \
+      CP HA_MUSER_ADDER_3_bit CP XOR2 CP INV CP GND
+FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf 2016/01/19.23:03:06 P.20131013
+EN work/HA_MUSER_ALUnReg 1453450014 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_ALUnReg/BEHAVIORAL 1453450015 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/HA_MUSER_ALUnReg 1453450014 CP XOR2 CP AND2
+EN work/FA_MUSER_ALUnReg 1453450016 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_ALUnReg/BEHAVIORAL 1453450017 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/FA_MUSER_ALUnReg 1453450016 CP HA_MUSER_ALUnReg CP OR2
+EN work/RCA_MUSER_ALUnReg 1453450018 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/RCA_MUSER_ALUnReg/BEHAVIORAL 1453450019 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/RCA_MUSER_ALUnReg 1453450018 CP FA_MUSER_ALUnReg CP XOR2
+EN work/Mux2_1_MUSER_ALUnReg 1453450020 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1_MUSER_ALUnReg/BEHAVIORAL 1453450021 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/Mux2_1_MUSER_ALUnReg 1453450020 CP AND2 CP OR2
+EN work/MUX_2_4_MUSER_ALUnReg 1453450022 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_2_4_MUSER_ALUnReg/BEHAVIORAL 1453450023 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/MUX_2_4_MUSER_ALUnReg 1453450022 CP Mux2_1_MUSER_ALUnReg CP INV
+EN work/Decoder3_MUSER_ALUnReg 1453450024 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder3_MUSER_ALUnReg/BEHAVIORAL 1453450025 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/Decoder3_MUSER_ALUnReg 1453450024 CP INV CP AND3
+EN work/OR8_MXILINX_ALUnReg 1453450026 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/OR8_MXILINX_ALUnReg/BEHAVIORAL 1453450027 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/OR8_MXILINX_ALUnReg 1453450026 CP FMAP CP OR2 CP OR4
+EN work/MUX_8_4_MUSER_ALUnReg 1453450028 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_8_4_MUSER_ALUnReg/BEHAVIORAL 1453450029 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/MUX_8_4_MUSER_ALUnReg 1453450028 CP OR8_MXILINX_ALUnReg CP AND2 \
+      CP Decoder3_MUSER_ALUnReg
+EN work/REGISTER_4_MUSER_ALUnReg 1453450030 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/REGISTER_4_MUSER_ALUnReg/BEHAVIORAL 1453450031 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/REGISTER_4_MUSER_ALUnReg 1453450030 CP FD CP AND2 CP INV
+EN work/Reg_Bank_MUSER_ALUnReg 1453450032 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Reg_Bank_MUSER_ALUnReg/BEHAVIORAL 1453450033 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf \
+      EN work/Reg_Bank_MUSER_ALUnReg 1453450032 CP AND2 CP AND3 CP GND \
+      CP REGISTER_4_MUSER_ALUnReg CP Decoder3_MUSER_ALUnReg
+EN work/ALUnReg 1453450034 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ALUnReg/BEHAVIORAL 1453450035 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ALUnReg.vhf EN work/ALUnReg 1453450034 \
+      CP Reg_Bank_MUSER_ALUnReg CP MUX_8_4_MUSER_ALUnReg CP MUX_2_4_MUSER_ALUnReg \
+      CP RCA_MUSER_ALUnReg CP OR4 CP AND2
+FL C:/Users/umste/Desktop/Nanoprocessor/Decoder2_4.vhf 2016/01/19.23:02:43 P.20131013
+EN work/Decoder2_4 1453450062 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Decoder2_4.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder2_4/BEHAVIORAL 1453450063 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Decoder2_4.vhf EN work/Decoder2_4 1453450062 \
+      CP AND2 CP INV
+FL C:/Users/umste/Desktop/Nanoprocessor/Decoder3.vhf 2016/01/19.23:02:45 P.20131013
+EN work/Decoder3 1453450094 FL C:/Users/umste/Desktop/Nanoprocessor/Decoder3.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder3/BEHAVIORAL 1453450095 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Decoder3.vhf EN work/Decoder3 1453450094 \
+      CP INV CP AND3
+FL C:/Users/umste/Desktop/Nanoprocessor/FA.vhf 2016/01/19.23:02:49 P.20131013
+EN work/HA_MUSER_FA 1453450096 FL C:/Users/umste/Desktop/Nanoprocessor/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_FA/BEHAVIORAL 1453450097 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/FA.vhf EN work/HA_MUSER_FA 1453450096 \
+      CP XOR2 CP AND2
+EN work/FA 1453450098 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/FA.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1453450099 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/FA.vhf EN work/FA 1453450098 \
+      CP HA_MUSER_FA CP OR2
+FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf 2016/01/22.13:35:59 P.20131013
+EN work/LUT_MUSER_finalProc 1453449972 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/LUT_MUSER_finalProc/BEHAVIORAL 1453449973 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/LUT_MUSER_finalProc 1453449972 CP ROM16X1 CP INV CP GND
+EN work/ROMBANK_MUSER_finalProc 1453449974 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ROMBANK_MUSER_finalProc/BEHAVIORAL 1453449975 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/ROMBANK_MUSER_finalProc 1453449974 CP ROM16X1
+EN work/ROM_MUSER_finalProc 1453449976 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ROM_MUSER_finalProc/BEHAVIORAL 1453449977 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/ROM_MUSER_finalProc 1453449976 CP GND CP ROMBANK_MUSER_finalProc
+EN work/HA_MUSER_finalProc 1453449978 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_finalProc/BEHAVIORAL 1453449979 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/HA_MUSER_finalProc 1453449978 CP XOR2 CP AND2
+EN work/FA_MUSER_finalProc 1453449980 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_finalProc/BEHAVIORAL 1453449981 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/FA_MUSER_finalProc 1453449980 CP HA_MUSER_finalProc CP OR2
+EN work/RCA_MUSER_finalProc 1453449982 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/RCA_MUSER_finalProc/BEHAVIORAL 1453449983 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/RCA_MUSER_finalProc 1453449982 CP FA_MUSER_finalProc CP XOR2
+EN work/Mux2_1_MUSER_finalProc 1453449984 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1_MUSER_finalProc/BEHAVIORAL 1453449985 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Mux2_1_MUSER_finalProc 1453449984 CP AND2 CP OR2
+EN work/MUX_2_4_MUSER_finalProc 1453449986 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_2_4_MUSER_finalProc/BEHAVIORAL 1453449987 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/MUX_2_4_MUSER_finalProc 1453449986 CP Mux2_1_MUSER_finalProc CP INV
+EN work/Decoder3_MUSER_finalProc 1453449988 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder3_MUSER_finalProc/BEHAVIORAL 1453449989 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Decoder3_MUSER_finalProc 1453449988 CP INV CP AND3
+EN work/OR8_MXILINX_finalProc 1453449990 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR8_MXILINX_finalProc/BEHAVIORAL 1453449991 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/OR8_MXILINX_finalProc 1453449990 CP FMAP CP OR2 CP OR4
+EN work/MUX_8_4_MUSER_finalProc 1453449992 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_8_4_MUSER_finalProc/BEHAVIORAL 1453449993 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/MUX_8_4_MUSER_finalProc 1453449992 CP OR8_MXILINX_finalProc CP AND2 \
+      CP Decoder3_MUSER_finalProc
+EN work/REGISTER_4_MUSER_finalProc 1453449994 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/REGISTER_4_MUSER_finalProc/BEHAVIORAL 1453449995 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/REGISTER_4_MUSER_finalProc 1453449994 CP FD CP AND2 CP INV
+EN work/Reg_Bank_MUSER_finalProc 1453449996 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reg_Bank_MUSER_finalProc/BEHAVIORAL 1453449997 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Reg_Bank_MUSER_finalProc 1453449996 CP AND2 CP AND3 CP GND \
+      CP REGISTER_4_MUSER_finalProc CP Decoder3_MUSER_finalProc
+EN work/ALUnReg_MUSER_finalProc 1453449998 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ALUnReg_MUSER_finalProc/BEHAVIORAL 1453449999 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/ALUnReg_MUSER_finalProc 1453449998 CP Reg_Bank_MUSER_finalProc \
+      CP MUX_8_4_MUSER_finalProc CP MUX_2_4_MUSER_finalProc CP RCA_MUSER_finalProc \
+      CP OR4 CP AND2
+EN work/Decoder2_4_MUSER_finalProc 1453450000 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder2_4_MUSER_finalProc/BEHAVIORAL 1453450001 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Decoder2_4_MUSER_finalProc 1453450000 CP AND2 CP INV
+EN work/INS_DECODER_MUSER_finalProc 1453450002 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/INS_DECODER_MUSER_finalProc/BEHAVIORAL 1453450003 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/INS_DECODER_MUSER_finalProc 1453450002 \
+      CP Decoder2_4_MUSER_finalProc CP AND2
+EN work/Mux_2_3_MUSER_finalProc 1453450004 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux_2_3_MUSER_finalProc/BEHAVIORAL 1453450005 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Mux_2_3_MUSER_finalProc 1453450004 CP Mux2_1_MUSER_finalProc CP INV
+EN work/ADDER_3_bit_MUSER_finalProc 1453450006 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADDER_3_bit_MUSER_finalProc/BEHAVIORAL 1453450007 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/ADDER_3_bit_MUSER_finalProc 1453450006 CP HA_MUSER_finalProc CP XOR2 \
+      CP INV CP GND
+EN work/Register_3_bit_MUSER_finalProc 1453450008 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Register_3_bit_MUSER_finalProc/BEHAVIORAL 1453450009 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/Register_3_bit_MUSER_finalProc 1453450008 CP FDC
+EN work/PC_MUSER_finalProc 1453450010 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/PC_MUSER_finalProc/BEHAVIORAL 1453450011 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      EN work/PC_MUSER_finalProc 1453450010 CP Register_3_bit_MUSER_finalProc \
+      CP ADDER_3_bit_MUSER_finalProc CP Mux_2_3_MUSER_finalProc
+EN work/finalProc 1453450012 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/finalProc/BEHAVIORAL 1453450013 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/finalProc.vhf EN work/finalProc 1453450012 \
+      CP PC_MUSER_finalProc CP INS_DECODER_MUSER_finalProc \
+      CP ALUnReg_MUSER_finalProc CP INV CP ROM_MUSER_finalProc \
+      CP LUT_MUSER_finalProc CP GND
+FL C:/Users/umste/Desktop/Nanoprocessor/HA.vhf 2016/01/19.22:51:05 P.20131013
+EN work/HA 1453450104 FL C:/Users/umste/Desktop/Nanoprocessor/HA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HA/BEHAVIORAL 1453450105 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/HA.vhf EN work/HA 1453450104 CP XOR2 \
+      CP AND2
+FL C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf 2016/01/19.23:02:59 P.20131013
+EN work/Decoder2_4_MUSER_INS_DECODER 1453450036 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder2_4_MUSER_INS_DECODER/BEHAVIORAL 1453450037 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf \
+      EN work/Decoder2_4_MUSER_INS_DECODER 1453450036 CP AND2 CP INV
+EN work/INS_DECODER 1453450038 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/INS_DECODER/BEHAVIORAL 1453450039 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/INS_DECODER.vhf EN work/INS_DECODER 1453450038 \
+      CP Decoder2_4_MUSER_INS_DECODER CP AND2
+FL C:/Users/umste/Desktop/Nanoprocessor/LUT.vhf 2016/01/21.14:36:07 P.20131013
+EN work/LUT 1453450040 FL C:/Users/umste/Desktop/Nanoprocessor/LUT.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/LUT/BEHAVIORAL 1453450041 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/LUT.vhf EN work/LUT 1453450040 \
+      CP ROM16X1 CP INV CP GND
+FL C:/Users/umste/Desktop/Nanoprocessor/Mux2_1.vhf 2016/01/19.23:02:44 P.20131013
+EN work/Mux2_1 1453450100 FL C:/Users/umste/Desktop/Nanoprocessor/Mux2_1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1/BEHAVIORAL 1453450101 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Mux2_1.vhf EN work/Mux2_1 1453450100 \
+      CP AND2 CP OR2
+FL C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf 2016/01/19.23:02:53 P.20131013
+EN work/Mux2_1_MUSER_Mux_2_3 1453450064 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1_MUSER_Mux_2_3/BEHAVIORAL 1453450065 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf \
+      EN work/Mux2_1_MUSER_Mux_2_3 1453450064 CP AND2 CP OR2
+EN work/Mux_2_3 1453450066 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Mux_2_3/BEHAVIORAL 1453450067 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Mux_2_3.vhf EN work/Mux_2_3 1453450066 \
+      CP Mux2_1_MUSER_Mux_2_3 CP INV
+FL C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf 2016/01/19.23:03:01 P.20131013
+EN work/Mux2_1_MUSER_MUX_2_4 1453450068 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1_MUSER_MUX_2_4/BEHAVIORAL 1453450069 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf \
+      EN work/Mux2_1_MUSER_MUX_2_4 1453450068 CP AND2 CP OR2
+EN work/MUX_2_4 1453450070 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_2_4/BEHAVIORAL 1453450071 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_2_4.vhf EN work/MUX_2_4 1453450070 \
+      CP Mux2_1_MUSER_MUX_2_4 CP INV
+FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf 2016/01/19.23:02:54 P.20131013
+EN work/Decoder3_MUSER_MUX_8_4 1453450072 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder3_MUSER_MUX_8_4/BEHAVIORAL 1453450073 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf \
+      EN work/Decoder3_MUSER_MUX_8_4 1453450072 CP INV CP AND3
+EN work/OR8_MXILINX_MUX_8_4 1453450074 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/OR8_MXILINX_MUX_8_4/BEHAVIORAL 1453450075 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf \
+      EN work/OR8_MXILINX_MUX_8_4 1453450074 CP FMAP CP OR2 CP OR4
+EN work/MUX_8_4 1453450076 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MUX_8_4/BEHAVIORAL 1453450077 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/MUX_8_4.vhf EN work/MUX_8_4 1453450076 \
+      CP OR8_MXILINX_MUX_8_4 CP AND2 CP Decoder3_MUSER_MUX_8_4
+FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf 2016/01/19.23:03:01 P.20131013
+EN work/Mux2_1_MUSER_PC 1453450042 FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2_1_MUSER_PC/BEHAVIORAL 1453450043 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf EN work/Mux2_1_MUSER_PC 1453450042 \
+      CP AND2 CP OR2
+EN work/Mux_2_3_MUSER_PC 1453450044 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Mux_2_3_MUSER_PC/BEHAVIORAL 1453450045 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf EN work/Mux_2_3_MUSER_PC 1453450044 \
+      CP Mux2_1_MUSER_PC CP INV
+EN work/HA_MUSER_PC 1453450046 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_PC/BEHAVIORAL 1453450047 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf EN work/HA_MUSER_PC 1453450046 \
+      CP XOR2 CP AND2
+EN work/ADDER_3_bit_MUSER_PC 1453450048 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADDER_3_bit_MUSER_PC/BEHAVIORAL 1453450049 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf EN work/ADDER_3_bit_MUSER_PC 1453450048 \
+      CP HA_MUSER_PC CP XOR2 CP INV CP GND
+EN work/Register_3_bit_MUSER_PC 1453450050 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Register_3_bit_MUSER_PC/BEHAVIORAL 1453450051 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf \
+      EN work/Register_3_bit_MUSER_PC 1453450050 CP FDC
+EN work/PC 1453450052 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/PC/BEHAVIORAL 1453450053 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/PC.vhf EN work/PC 1453450052 \
+      CP Register_3_bit_MUSER_PC CP ADDER_3_bit_MUSER_PC CP Mux_2_3_MUSER_PC
+FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf 2016/01/19.23:03:02 P.20131013
+EN work/HA_MUSER_RCA 1453450078 FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HA_MUSER_RCA/BEHAVIORAL 1453450079 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf EN work/HA_MUSER_RCA 1453450078 \
+      CP XOR2 CP AND2
+EN work/FA_MUSER_RCA 1453450080 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_RCA/BEHAVIORAL 1453450081 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf EN work/FA_MUSER_RCA 1453450080 \
+      CP HA_MUSER_RCA CP OR2
+EN work/RCA 1453450082 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/RCA/BEHAVIORAL 1453450083 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/RCA.vhf EN work/RCA 1453450082 \
+      CP FA_MUSER_RCA CP XOR2
+FL C:/Users/umste/Desktop/Nanoprocessor/Register_3_bit.vhf 2016/01/19.23:02:46 P.20131013
+EN work/Register_3_bit 1453450084 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Register_3_bit.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Register_3_bit/BEHAVIORAL 1453450085 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Register_3_bit.vhf \
+      EN work/Register_3_bit 1453450084 CP FDC
+FL C:/Users/umste/Desktop/Nanoprocessor/REGISTER_4.vhf 2016/01/19.23:02:44 P.20131013
+EN work/REGISTER_4 1453450102 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/REGISTER_4.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/REGISTER_4/BEHAVIORAL 1453450103 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/REGISTER_4.vhf EN work/REGISTER_4 1453450102 \
+      CP FD CP AND2 CP INV
+FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf 2016/01/19.23:03:00 P.20131013
+EN work/Decoder3_MUSER_Reg_Bank 1453450086 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder3_MUSER_Reg_Bank/BEHAVIORAL 1453450087 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf \
+      EN work/Decoder3_MUSER_Reg_Bank 1453450086 CP INV CP AND3
+EN work/REGISTER_4_MUSER_Reg_Bank 1453450088 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/REGISTER_4_MUSER_Reg_Bank/BEHAVIORAL 1453450089 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf \
+      EN work/REGISTER_4_MUSER_Reg_Bank 1453450088 CP FD CP AND2 CP INV
+EN work/Reg_Bank 1453450090 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Reg_Bank/BEHAVIORAL 1453450091 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/Reg_Bank.vhf EN work/Reg_Bank 1453450090 \
+      CP AND2 CP AND3 CP GND CP REGISTER_4_MUSER_Reg_Bank CP Decoder3_MUSER_Reg_Bank
+FL C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf 2016/01/19.23:01:16 P.20131013
+EN work/ROMBANK_MUSER_ROM 1453450054 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ROMBANK_MUSER_ROM/BEHAVIORAL 1453450055 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf EN work/ROMBANK_MUSER_ROM 1453450054 \
+      CP ROM16X1
+EN work/ROM 1453450056 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ROM/BEHAVIORAL 1453450057 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ROM.vhf EN work/ROM 1453450056 \
+      CP GND CP ROMBANK_MUSER_ROM
+FL C:/Users/umste/Desktop/Nanoprocessor/ROMBANK.vhf 2016/01/19.23:01:10 P.20131013
+EN work/ROMBANK 1453450092 FL C:/Users/umste/Desktop/Nanoprocessor/ROMBANK.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ROMBANK/BEHAVIORAL 1453450093 \
+      FL C:/Users/umste/Desktop/Nanoprocessor/ROMBANK.vhf EN work/ROMBANK 1453450092 \
+      CP ROM16X1
+FL "E:/architecture processor/qqqq/ADDER_3_bit.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/ALUnReg.vhf" 2016/01/11.02:40:26 P.20131013
+FL "E:/architecture processor/qqqq/Decoder2_4.vhf" 2016/01/11.02:40:28 P.20131013
+FL "E:/architecture processor/qqqq/Decoder3.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/FA.vhf" 2016/01/11.02:40:26 P.20131013
+FL "E:/architecture processor/qqqq/finalProc.vhf" 2016/01/12.02:07:09 P.20131013
+FL "E:/architecture processor/qqqq/HA.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/INS_DECODER.vhf" 2016/01/11.02:40:28 P.20131013
+FL "E:/architecture processor/qqqq/Mux2_1.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/Mux_2_3.vhf" 2016/01/11.02:40:28 P.20131013
+FL "E:/architecture processor/qqqq/MUX_2_4.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/MUX_8_4.vhf" 2016/01/11.02:40:26 P.20131013
+FL "E:/architecture processor/qqqq/PC.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/RCA.vhf" 2016/01/11.02:40:26 P.20131013
+FL "E:/architecture processor/qqqq/Register_3_bit.vhf" 2016/01/11.02:40:28 P.20131013
+FL "E:/architecture processor/qqqq/REGISTER_4.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/Reg_Bank.vhf" 2016/01/11.02:40:27 P.20131013
+FL "E:/architecture processor/qqqq/ROM.vhf" 2016/01/12.01:59:14 P.20131013
+FL "E:/architecture processor/qqqq/ROMBANK.vhf" 2016/01/12.01:59:13 P.20131013

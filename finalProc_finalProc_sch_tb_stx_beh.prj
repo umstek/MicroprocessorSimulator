@@ -1,0 +1,3 @@
+vhdl isim_temp "ROMBANK.vhf"
+vhdl isim_temp "ROM.vhf"
+vhdl isim_temp "TB_processor.vhd"

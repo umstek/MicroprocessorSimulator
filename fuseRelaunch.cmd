@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/umste/Desktop/Nanoprocessor/finalProc_finalProc_sch_tb_isim_beh.exe" -prj "C:/Users/umste/Desktop/Nanoprocessor/finalProc_finalProc_sch_tb_beh.prj" "work.finalProc_finalProc_sch_tb" 

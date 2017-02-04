@@ -1,0 +1,29 @@
+Command line:
+   LUT_LUT_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  11849
+
+Tue Jan 19 22:59:22 2016
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 840.548 Meg
+
+ Total Signals          : 92
+ Total Nets             : 39
+ Total Signal Drivers   : 14
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 11
+ Total Traceable Variables  : 132
+ Total Scalar Nets and Variables : 4868
+Total Line Count : 68
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 683.262 Meg
+
+Tue Jan 19 23:01:04 2016
+
